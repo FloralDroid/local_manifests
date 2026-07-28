@@ -16,7 +16,8 @@
 
     <!-- Our own components -->
     <project path="device/redroid" name="device_redroid" groups="redroid" remote="floral" revision="redroid-12.0.0" />
-    <project path="device/redroid-prebuilts" name="device_redroid-prebuilts" groups="redroid" remote="redroid" revision="master" clone-depth="1" />
+    <project path="device/redroid-prebuilts" name="device_redroid-prebuilts" groups="redroid" remote="floral" revision="master" clone-depth="1" />
+    <project path="external/gbm_gralloc" name="gbm_gralloc" groups="redroid" remote="floral" revision="master" />
     <project path="hardware/redroid/c2" name="redroid-c2" groups="redroid" remote="floral" revision="master" />
     <project path="hardware/redroid/omx" name="redroid-omx" groups="redroid" remote="floral" revision="master" />
     <project path="vendor/redroid" name="vendor_redroid" groups="redroid" remote="floral" revision="5db0f6c4601e353ccfbc30ba1ad7ea606b53d42a" />
