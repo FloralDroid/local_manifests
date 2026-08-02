@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="redroid" fetch="https://github.com/remote-android/" revision="redroid-12.0.0" />
     <remote name="floral" fetch="https://github.com/FloralDroid/" />
-
-    <!-- remove unused projects -->
-    <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
-    <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-    <remove-project name="platform/prebuilts/gdb/darwin-x86" />
-    <remove-project name="platform/prebuilts/go/darwin-x86" />
-    <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
     <!-- replace AOSP modules with FloralDroid Android 12 forks -->
     <remove-project name="platform/packages/modules/Connectivity" />
@@ -21,7 +9,7 @@
     <!-- FloralDroid components -->
     <project path="device/redroid" name="device_redroid" groups="redroid" remote="floral" revision="redroid-12.0.0" />
     <project path="device/redroid-prebuilts" name="device_redroid-prebuilts" groups="redroid" remote="floral" revision="master" clone-depth="1" />
-    <project path="external/FFmpeg" name="FFmpeg" groups="redroid" remote="floral" revision="master" />
+    <project path="external/FFmpeg" name="FFmpeg" groups="redroid" remote="floral" revision="floral/android-12" />
     <project path="external/gbm_gralloc" name="gbm_gralloc" groups="redroid" remote="floral" revision="master" />
     <project path="hardware/floral/audio" name="hardware_floral_audio" groups="redroid" remote="floral" revision="main" />
     <project path="hardware/floral/display" name="hardware_floral_display" groups="redroid" remote="floral" revision="main" />
