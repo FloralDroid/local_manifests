@@ -18,6 +18,6 @@
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="floral" revision="floral-12.0.0_r32" />
     <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="floral" revision="floral-12.0.0_r32" />
     <project path="packages/services/FloralDevice" name="packages_services_FloralDevice" groups="redroid" remote="floral" revision="main" />
-    <project path="vendor/redroid" name="vendor_redroid" groups="redroid" remote="floral" revision="5db0f6c4601e353ccfbc30ba1ad7ea606b53d42a" />
+    <project path="vendor/redroid" name="vendor_redroid" groups="redroid" remote="floral" revision="ffa9b723a0d338e361a96bb4eb468ae7c52e3dc3" />
 
 </manifest>
