@@ -13,6 +13,7 @@
     <project path="external/gbm_gralloc" name="gbm_gralloc" groups="redroid" remote="floral" revision="master" />
     <project path="hardware/floral/audio" name="hardware_floral_audio" groups="redroid" remote="floral" revision="main" />
     <project path="hardware/floral/display" name="hardware_floral_display" groups="redroid" remote="floral" revision="main" />
+    <project path="hardware/floral/sensors" name="hardware_floral_sensors" groups="redroid" remote="floral" revision="main" />
     <project path="hardware/redroid/c2" name="redroid-c2" groups="redroid" remote="floral" revision="master" />
     <project path="hardware/redroid/omx" name="redroid-omx" groups="redroid" remote="floral" revision="master" />
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="floral" revision="floral-12.0.0_r32" />
