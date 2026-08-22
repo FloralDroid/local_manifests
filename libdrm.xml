@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="freedesktop" fetch="https://gitlab.freedesktop.org/mesa/" />
+
+    <remove-project name="platform/external/libdrm" />
+    <project path="external/libdrm"
+        name="drm"
+        groups="pdk"
+        remote="freedesktop"
+        revision="fc5f2239f3b7abacb9398b2f939f538dd195e860" />
+</manifest>
