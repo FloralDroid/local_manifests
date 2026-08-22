@@ -14,7 +14,9 @@
     <project path="external/FFmpeg" name="FFmpeg" groups="redroid" remote="floral" revision="floral/android-12" />
     <project path="external/gbm_gralloc" name="gbm_gralloc" groups="redroid" remote="floral" revision="master" />
     <project path="external/mesa3d" name="mesa3d" groups="redroid" remote="floral" revision="floral-12.0.0_r32" />
-    <project path="external/minigbm" name="minigbm" groups="pdk" remote="floral" revision="floral-12.0.0_r32" />
+    <project path="external/minigbm" name="minigbm" groups="pdk" remote="floral" revision="floral-12.0.0_r32">
+        <copyfile src="libdrm_headers.bp" dest="external/libdrm/Android.bp" />
+    </project>
     <project path="hardware/floral/audio" name="hardware_floral_audio" groups="redroid" remote="floral" revision="main" />
     <project path="hardware/floral/codec" name="hardware_floral_codec" groups="redroid" remote="floral" revision="main" />
     <project path="hardware/floral/display" name="hardware_floral_display" groups="redroid" remote="floral" revision="main" />
