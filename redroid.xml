@@ -10,7 +10,7 @@
     <!-- FloralDroid components -->
     <project path="device/redroid" name="device_redroid" groups="redroid" remote="floral" revision="redroid-12.0.0" />
     <project path="device/redroid-prebuilts" name="device_redroid-prebuilts" groups="redroid" remote="floral" revision="master" clone-depth="1" />
-    <project path="external/FFmpeg" name="FFmpeg" groups="redroid" remote="floral" revision="floral/android-12" />
+    <project path="external/FFmpeg" name="FFmpeg" groups="redroid" remote="floral" revision="redroid-12.0.0" />
     <project path="external/gbm_gralloc" name="gbm_gralloc" groups="redroid" remote="floral" revision="master" />
     <project path="external/mesa3d" name="mesa3d" groups="redroid" remote="floral" revision="floral-12.0.0_r32" />
     <project path="hardware/floral/audio" name="hardware_floral_audio" groups="redroid" remote="floral" revision="main" />
